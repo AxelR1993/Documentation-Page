@@ -1,0 +1,214 @@
+body{
+  
+    background-image: url("imagenes/fondo.jpg");
+     }
+   
+   #ff{
+     width:60%;
+   }
+   #navbar{
+     float:left;
+     width:16%;
+     position:fixed;
+     }
+   
+   li{
+     font-size:120%;
+   }
+   
+   .flex-container{
+     display:flex;
+     
+     
+   }
+   
+   .plot{
+     width:40%;
+     margin-left:10%;
+     font-size:120%;
+   }
+   
+   .main-section{
+     
+     margin-left:15%;
+    
+       
+   }
+   
+   header{
+     text-align:left;
+     color:black;
+     font-size:20px;
+     margin-bottom:10px;
+   }
+   
+   #logo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+     filter: drop-shadow(5px 5px 5px #222);
+     width:25vw;
+   }
+   
+   h1{
+     text-align:left;
+     color:white;
+     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+     font-size:36px;
+   }
+   
+   h2{
+     text-align:left;
+     color:white;
+     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+     margin-top:0%;
+     font-size:180%;
+   }  
+   
+   a{
+   text-decoration: none;
+   } 
+    
+   .cover{
+     float:left;
+     margin-left:5%;
+     width:13%;
+     margin-right:20px;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+     filter: drop-shadow(5px 5px 5px #222);
+    
+   
+   }
+   
+   .character{
+     float:right;
+     margin-top:-10%;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+     filter: drop-shadow(5px 5px 5px #222);
+      height:30vw;
+   }
+   
+   
+   
+   h3{
+     text-align:center;
+     font-size:150%;
+   }
+   
+   h4{
+     font-size:0%;
+     
+   }
+   
+   p{
+     margin-left:3%;
+     font-size:120%;
+   }
+   
+   .combat{
+     margin-left: 50%;
+     margin-top:10%;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+     filter: drop-shadow(5px 5px 5px #222);
+     width:15vw;
+   }
+   
+   footer{
+     text-align:center;
+   }
+   
+   
+   @media screen and (max-width: 600px) {
+     
+     .flex-container {
+     flex-direction: column; 
+       flex-grow:1;
+       
+       margin-left:15%;
+       
+     }
+     
+     audio{
+       width:24vw;
+       margin-top:30%;
+       
+     }
+     
+     #logo{
+     width:60vw;
+       margin-left:15%;
+   }
+     
+     .cover{
+     width:35vw;
+       margin-left:15%;
+       margin-bottom:5%;
+       
+     
+   }
+     
+     .character{
+      height:60vw;
+   }
+     
+     p{
+     margin-left:15%;
+     font-size:100%;
+       
+   }
+     
+     h2{
+     margin-top:-30%;
+     font-size:80%;
+   }  
+     
+       h3{
+     
+     font-size:80%;
+   }
+     
+     #navbar{
+     
+     width:10%;
+     position:fixed;
+     }
+     
+     #ff{
+     width:0vw;
+   }
+     
+     .combat{
+     
+     width:45vw;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+     
+     header{
+     font-size:0px;
+     
+   }
+     
+     
+     li{
+     font-size:100%;
+      
+   }
+     
+     code{
+       font-size:80%;
+       }
+     
+     .plot{
+       display: block;
+     margin-left: auto;
+     margin-right: auto;
+       width: 100%;
+       
+     }
+     
+     
+       
+    }
